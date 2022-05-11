@@ -1,7 +1,7 @@
 use blockchainlib::*;
 fn main () {
 
-    let difficulty = 0x00fffffffffffffffffffffffffffff;
+    let difficulty = 0x000ffffffffffffffffffffffffffff;
 
     let mut genisis_block = Block::new(0, now(), vec![0; 32], 0, vec![
         Transaction {
